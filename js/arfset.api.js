@@ -29,7 +29,7 @@
     document.body.appendChild(this.canvas);
     var debugBuffer = new Uint8ClampedArray(
       Module.HEAPU8.buffer,
-      this.frameIbwpointer,
+      this.pointer,
       this.frameimgBWsize
     );
     console.log(debugBuffer.length);
